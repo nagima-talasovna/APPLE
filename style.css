@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container2{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#header{
+    background: rgba(22, 22, 23, 0.80);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.header  a{
+    width: 77px;
+height: 44px;
+color: #e6e2e2;
+text-decoration: none;
+width: 560px;
+padding: 10px 0;
+}
+
+
+.hero h1{
+    width: 787.7px;
+height: 67px;
+color: #1D1D1F;
+text-align: center;
+font-size: 51.625px;
+font-weight: 700;
+
+}
+#hero{
+    background: url(./images/Figure.png);
+    min-height: 900px;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.hero p{
+    color: #1D1D1F;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 26.141px;
+width:400px;
+height: 34px;
+padding-top: 30px;
+
+}
+
+
+
+
+
+
+.hero button{
+    color: #06C;
+text-align: center;
+font-size: 19.359px;
+width: 100px;
+height: 25px;
+margin-top: 10px;
+} 
+
+
+.hero span{
+    color: #6E6E73;
+text-align: center;
+font-size: 19.523px;
+padding-top: 70px;
+
+}
+
+#hero2{
+    background: url(./images/giirll.png);
+    background-repeat: no-repeat;
+    min-height: 900px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: -150px;
+
+}
+
+.hero2 h1{
+   font-size: 50px;
+    color: #fff;
+}
+
+.hero2 p{
+    color: #F5F5F7;
+text-align: center;
+width: 603.58px;
+height: 34px;
+font-size: 25.484px;
+}
+
+.hero-content button{
+    border-radius: 980px;
+background: #F5F5F7;
+width: 130.72px;
+height: 44px;
+border: none;
+}
+
+.hero2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ padding-top: 550px;
+ gap: 10px;
+  
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.hero-center{
+    display: flex;
+    justify-content: center;
+  
+}
+.hero2 span{
+    font-size: 50px;
+    color: #fff;
+}
